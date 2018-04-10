@@ -1,0 +1,17 @@
+
+<h1>Drivers</h1>
+<br>
+<div class="container-fluid" id="contdiv">
+  <div class="row">
+    <div class="col-md-12">
+        <a [routerLink]="'./viewvehicles'"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-star"></i>&nbsp; View</button></a>
+        <a [routerLink]="'./addvehicle'"><button type="button" class="btn btn-success btn-sm"><i class="fa fa-lightbulb-o"></i>&nbsp; Add</button></a>
+        <a [routerLink]="'./deletevehicle'"><button type="button" class="btn btn-info btn-sm"><i class="fa fa-lightbulb-o"></i>&nbsp; Delete</button></a>
+        <a [routerLink]="'./vehiclestatus'"><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-map-marker"></i>&nbsp; Status</button></a>
+        <a [routerLink]="'./updatevehicle'"><button type="button" class="btn btn-success btn-sm"><i class="fa fa-lightbulb-o"></i>&nbsp; Update</button></a>
+        <a [routerLink]="'./canclevehicle'"><button type="button" class="btn btn-info btn-sm"><i class="fa fa-lightbulb-o"></i>&nbsp; Cancle</button></a>
+        
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+</div>

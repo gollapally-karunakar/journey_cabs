@@ -1,0 +1,14 @@
+
+<h1>Agents</h1>
+<br>
+<div class="container-fluid" id="contdiv">
+  <div class="row">
+    <div class="col-md-12">
+        <a [routerLink]="'./viewagent'"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-star"></i>&nbsp; View</button></a>
+        <a [routerLink]="'./addagent'"><button type="button" class="btn btn-success btn-sm"><i class="fa fa-lightbulb-o"></i>&nbsp; Add</button></a>
+        <a [routerLink]="'./updateagent'"><button type="button" class="btn btn-info btn-sm"><i class="fa fa-lightbulb-o"></i>&nbsp; Update</button></a>
+        <a [routerLink]="'./deleteagent'"><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-map-marker"></i>&nbsp; Delete</button></a>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+</div>
